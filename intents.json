@@ -1,0 +1,94 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi",
+                "Hey",
+                "Hello",
+                "Is anyone there",
+                "Good Morning",
+                "Good evening",
+                "Good Day"
+            ],
+            "responses": [
+                "Hey",
+                "Hello,thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help you?"
+            ]
+            
+        },
+        {
+            "tag": "good bye",
+            "patterns": [
+                "Bye",
+                "See you",
+                "Goodbye"
+            ],
+            "responses": [
+                "You are welcome",
+                "Happy to help",
+                "Anytime"
+            ]
+        },
+        {
+            "tag":"items",
+            "patterns": [
+                "What item do you have",
+                "What do you sell",
+                "what item do you sell",
+                "What kind of items are there"
+            ],
+            "responses":[
+                "We sell clothes and shoes",
+                "We have clothes and shoes"
+            ]
+        },
+        {
+            "tag":"payments",
+            "patterns":[
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypall?",
+                "Are you cash only?"
+            ],
+            "responses":[
+                "We accept VISA, Mastercard and Paypal",
+                "Yes, we accept most major credit cards",
+                "Sure"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns":[
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery?"
+            ],
+            "responses":[
+                "Delivery takes 1-2 days",
+                "Shipping takes 1-2 days"
+            ]
+        },
+        {
+            "tag" : "health",
+            "patterns":[
+                "Have you experienced any recent changes in your health?",
+                "How would you describe your overall health and well-being?",
+                "How are you doing?",
+                "Are you ok?",
+                "How are you?",
+                "How do you cope with pain or discomfort?",
+                "What is your typical diet and exercise routine?"
+            ],
+            "responses": [
+                "I would say I'm generally in good health. I try to take care of myself by eating well and staying active.",
+                "I've noticed that I've been feeling more fatigued than usual lately,and I've been experiencing some digestive issues.",
+                "I am ok, don't worry about me."
+            ]
+        }
+    ]
+        
+}
+    
